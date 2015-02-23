@@ -1,0 +1,2 @@
+alias l="ls -la"       	# List in long format, include dotfiles
+alias rf="rm -rf"		# Delete recursively
