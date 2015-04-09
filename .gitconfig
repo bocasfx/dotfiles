@@ -7,6 +7,8 @@
 	smudge = git media smudge %f
 [core]
 	excludesfile = /Users/bocas/.gitignore_global
+	editor = subl
+	autocrlf = input
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
@@ -17,3 +19,5 @@
 	clean = git hawser clean %f
 	smudge = git hawser smudge %f
 	required = true
+[color]
+	ui = auto
